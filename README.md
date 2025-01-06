@@ -80,13 +80,16 @@ Classification Report:
 
 
 
-![image.png](attachment:a2abe651-cbcf-4ed7-9651-6f92d84f900b.png)
+<img width="501" alt="image" src="https://github.com/user-attachments/assets/b787f74d-e827-4e4d-984e-498615b655f9" />
 
-![image.png](attachment:9f2728a9-0b03-41d9-8456-3a71df6e2a77.png)
+
+![image](https://github.com/user-attachments/assets/a2d66d1e-dd68-4f1f-88ae-a06671a68abf)
+
 
 The learning curve graph below shows the relationship between the model performance and the size of the training data. As the training data increases, the model fits the training data well. Because there is a gap between the training data and cross validation score, this may suggest in some bias in the model. This may indicate slight overfitting in the model. The overfitting could benefit by additional training data. Both lines do tend to level out which would indicate additional training data would have a slight benefit.
 
-![image.png](attachment:570a531a-1bcf-4ed2-9177-88dec836fcdf.png)
+![image](https://github.com/user-attachments/assets/a02632c2-a6af-4637-bb74-ac0f1d256a8a)
+
 
 
 ### Limitations and Assumptions
