@@ -1,7 +1,7 @@
-##Run/Pass Pre-snap Prediction
-###Metric Track
+## Run/Pass Pre-snap Prediction
+### Metric Track
 
-###Overview
+### Overview
 As advancements in data collection in the NFL have continued to grow, so has the adoption of data science to make predictions. The following model was built to give NFL defenses an advantage against the San Francisco 49ers by producing a probability that the next offensive play will be a designed run or pass play based on their tendencies based on pre-play line-up and game situation. By using this model, defensive coaches will be able to call an audible that will give them an advantage.
 
 ### Data Source
@@ -80,13 +80,13 @@ Classification Report:
 
 
 
-<img src="roc_curve.png" alt="ROC Curve Analysis" title="ROC Curve Analysis" width="700">
+![image.png](attachment:a2abe651-cbcf-4ed7-9651-6f92d84f900b.png)
 
-<img src="confusion_matrix.png" alt="Confusion Matrix" title="Confusion Matrix" width="700">
+![image.png](attachment:9f2728a9-0b03-41d9-8456-3a71df6e2a77.png)
 
 The learning curve graph below shows the relationship between the model performance and the size of the training data. As the training data increases, the model fits the training data well. Because there is a gap between the training data and cross validation score, this may suggest in some bias in the model. This may indicate slight overfitting in the model. The overfitting could benefit by additional training data. Both lines do tend to level out which would indicate additional training data would have a slight benefit.
 
-<img src="learning_curve.png" alt="Learning Curve" title="Learning Curve" width="700">
+![image.png](attachment:570a531a-1bcf-4ed2-9177-88dec836fcdf.png)
 
 
 ### Limitations and Assumptions
